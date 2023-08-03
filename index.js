@@ -42,12 +42,12 @@ function checkConnection(host, port, timeout) {
     });
 }
 
-pirocas();
+ConCheck();
 
    var help = 0;
    var helper = 0;
 
-function pirocas(){
+function ConCheck(){
 setInterval(function() {
 
     checkConnection("2.81.90.12", 25565).then(function() {
@@ -62,7 +62,7 @@ if (help == 1 && helper !== help) {
 
         helper=help
         console.log(help)
-        foda()
+        serverUp()
     
     }
         
@@ -70,18 +70,18 @@ if (help == 1 && helper !== help) {
 if (help == 2 && helper !== help) {
     helper = help
     console.log("cheguei")    
-    fodaa()
+    serverDown()
 
 
         }    
 
 }, 60000) }
 
-function foda() {    
+function serverUp() {    
         client.user.setActivity('Server Online ✅', { type:"PLAYING" })
 }
 
-function fodaa() {    
+function serverDown() {    
         client.user.setActivity('Server Down ❌', { type:"PLAYING" })
 }
 
