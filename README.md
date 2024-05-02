@@ -30,7 +30,7 @@ git clone https://github.com/FredericoNicola/Minecraft-Discord-Server-Status.git
 cd Minecraft-Discord-Server-Status
 ```
 
-3. Install dependecies
+3. Install dependencies
    
 ```bash
 npm install
