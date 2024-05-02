@@ -21,13 +21,13 @@ Before running the bot, ensure you have the following:
 1. Clone this repository to your local machine:
 
 ```bash
-git clone [https://github.com/FredericoNicola/discord-bot-server.git]
+git clone https://github.com/FredericoNicola/Minecraft-Discord-Server-Status.git
 
 ```
 2. Navigate to your project folder
 
 ```bash 
-cd discord-bot-server
+cd Minecraft-Discord-Server-Status
 ```
 
 3. Install dependecies
